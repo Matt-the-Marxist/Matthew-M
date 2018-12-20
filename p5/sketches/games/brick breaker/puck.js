@@ -40,8 +40,9 @@ function Puck(){
 	
 	this.checkPaddle = function(){
 		if( this.y >= height - (30+ this.r) && this.y<= height-(25-this.r) && this.x >= paddle.x && this.x <= paddle.x + paddle.width){
- 			this.yspeed *= -1;
- 			this.xspeed *= Math.pow(-1,floor(random()*2));
+			this.angle = this.angle + randomGaussian(0,0.25);
+			this.xspeed = this.speed * cos(this.angle)* pow(-1,floor(2*random()));
+			this.yspeed =-1* this.speed * sin(this.angle);
 		}
 	}
 	this.checkBricks = function(){

@@ -30,12 +30,9 @@ function draw() {
 	text(['Score:'+score],5,height-10);
 	text(['lives:'+lives],width-40,height-10);
 	if(lives <= 0){
-		/*for(let i = 0; i<num; i++){
-			bricks[i].x = 0;
-			bricks[i].y = 0;
-			bricks[i].width = 0;
-			bricks[i].gap  = 0;;
-		}*/
+		for(let i = 0; i<num; i++){
+			bricks[i].hits = 0;
+		}
 		paddle.y = -100;
 		background(100);
 		fill(255);

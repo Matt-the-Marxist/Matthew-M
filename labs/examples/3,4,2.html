@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+	<head>
+		<title>template</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+				<script>
+				//DON'T TOUCH
+				//this is the header
+				function header (){
+					var name = "Matthew Morrissette";
+					var date = new Date();
+					var day = date.getDate();
+					var month = date.getMonth() + 1;
+					var year = date.getFullYear()-2000;
+					document.write(name, "<br>"); 
+					document.write(month,"/",day,"/",year);
+				}
+				header()
+				//LEAVE ME ALONE
+				
+				//prob1
+				function noOne(){
+					let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
+					console.log(innerHtml);
+
+				}
+				noOne();
+				
+				//prob2
+				function noTwo(){
+					let x = 7;
+					let y = 9;
+					let result = "to come";
+
+					if(x == y) {
+						result = "Equal!";
+					} else {
+						result = "Not equal!";
+					}
+					console.log(result)
+				}
+				noTwo();
+				
+				//prob3
+				function noThree(){
+					function getNine() {
+						let x = 6;
+						let y = 3;
+						return x + y;
+					}
+
+					let result = getNine();
+					console.log(result);
+
+				}
+				noThree();
+				
+				//prob4
+				function noFour(){
+					function raiseToPower(b, e) {
+						return Math.pow(b, e);
+					}
+
+					let base = 2;
+					let exp = 3;
+					let power = raiseToPower(base, exp);
+					console.log(power);
+
+				}
+				noFour();
+				
+				//prob5
+				function noFive(){
+					function countToFive() {
+						let firstFive = "12345";
+						let len = firstFive.length;
+						// Fix the line below
+						for (let i = 0; i < len; i++) {
+						// Do not alter code below this line
+							console.log(firstFive[i]);
+						}
+					}
+
+					countToFive();
+	
+				}
+				noFive();
+				
+				//prob6
+				function noSix(){
+					
+				}
+				noSix();
+				
+				//prob7
+				function noSeven(){
+					
+				}
+				noSeven();
+				
+				//prob8
+				function noEight(){
+					
+				}
+				noEight();
+				
+				//prob9
+				function noNine(){
+					
+				}
+				noNine();
+				
+				//prob10
+				function noTen(){
+					
+				}
+				noTen();
+				
+			
+		</script>
+	</body>
+</html>

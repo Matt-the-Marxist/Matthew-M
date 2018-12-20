@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+		<title>3.3.2</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+				<script>
+				//DON'T TOUCH
+				//this is the header
+				function header (){
+					var name = "Matthew Morrissette";
+					var date = new Date();
+					var day = date.getDate();
+					var month = date.getMonth() + 1;
+					var year = date.getFullYear()-2000;
+					document.write(name, "<br>"); 
+					document.write(month,"/",day,"/",year);
+				}
+				header()
+				//LEAVE ME ALONE
+				
+				//prob1
+				function noOne(){
+					let quoteSample = "3 blind mice.";
+					let myRegex = /[^aeiou0-9]/ig; // Change this line
+					let result = quoteSample.match(myRegex); // Change this line
+					console.log(result);
+
+				}
+				noOne();
+				
+				//prob2
+				function noTwo(){
+					let difficultSpelling = "Mississippi";
+					let myRegex = /s+/ig; // Change this line
+					let result = difficultSpelling.match(myRegex);
+					console.log(result);
+				}
+				noTwo();
+				
+				//prob3
+				function noThree(){
+					let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+					let chewieRegex = /Aa*/; // Change this line
+					let result = chewieQuote.match(chewieRegex);
+					console.log(result);
+				}
+				noThree();
+				
+				//prob4
+				function noFour(){
+					let text = "<h1>Winter is coming</h1>";
+					let myRegex = /<.*?>/; // Change this line
+					let result = text.match(myRegex);
+					console.log(result);
+				}
+				noFour();
+				
+				//prob5
+				function noFive(){
+					let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
+
+					let reCriminals = /C+/g; // Change this line
+
+					let matchedCriminals = crowd.match(reCriminals);
+					console.log(matchedCriminals);
+
+				}
+				noFive();
+				
+				//prob6
+				function noSix(){
+					let rickyAndCal = "Cal and Ricky both like racing.";
+					let calRegex = /^cal/i; // Change this line
+					let result = calRegex.test(rickyAndCal);
+					console.log(result);
+				}
+				noSix();
+				
+				//prob7
+				function noSeven(){
+					let caboose = "The last car on a train is the caboose";
+					let lastRegex = /caboose$/; // Change this line
+					let result = lastRegex.test(caboose);
+					console.log(result);
+				}
+				noSeven();
+				
+				//prob8
+				function noEight(){
+					let quoteSample = "The five boxing wizards jump quickly.";
+					let alphabetRegexV2 = /\w/ig; // Change this line
+					let result = quoteSample.match(alphabetRegexV2).length;
+					console.log(result);
+				}
+				noEight();
+				
+				//prob9
+				function noNine(){
+					let quoteSample = "The five boxing wizards jump quickly.";
+					let nonAlphabetRegex = /\W/g; // Change this line
+					let result = quoteSample.match(nonAlphabetRegex).length;
+					console.log(result);
+				}
+				noNine();
+				
+				//prob10
+				function noTen(){
+					let numString = "Your sandwich will be $5.00";
+					let numRegex = /\d/g; // Change this line
+					let result = numString.match(numRegex).length;
+					console.log(result);
+				}
+				noTen();
+				
+				//prob11
+				function noEleven(){
+					let numString = "Your sandwich will be $5.00";
+					let noNumRegex = /\D/g; // Change this line
+					let result = numString.match(noNumRegex).length;
+
+					console.log(result);
+				}
+				noEleven();
+			
+		</script>
+	</body>
+</html>

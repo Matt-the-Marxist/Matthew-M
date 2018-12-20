@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>3.3.3</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+				<script>
+				//DON'T TOUCH
+				//this is the header
+				function header (){
+					var name = "Matthew Morrissette";
+					var date = new Date();
+					var day = date.getDate();
+					var month = date.getMonth() + 1;
+					var year = date.getFullYear()-2000;
+					document.write(name, "<br>"); 
+					document.write(month,"/",day,"/",year);
+				}
+				header()
+				//LEAVE ME ALONE
+				
+				//prob1
+				function noOne(){
+					let sample = "Whitespace is important in separating words";
+					let countWhiteSpace = /\s/ig; // Change this line
+					let result = sample.match(countWhiteSpace).length;
+					console.log(result);
+
+				}
+				noOne();
+				
+				//prob2
+				function noTwo(){
+					let haStr = "Hazzzzah";
+					let haRegex = /haz{4,}ah/ig; // Change this line
+					let result = haRegex.test(haStr);
+					console.log(result);
+				}
+				noTwo();
+				
+				//prob3
+				function noThree(){
+					let sampleWord = "77astronaut";
+					let pwRegex = /(?=\w{5,})(?=\d{2,})/; // Change this line
+					let result = pwRegex.test(sampleWord);
+					console.log(result);
+				}
+				noThree();
+				
+				//prob4
+				function noFour(){
+					let repeatNum = "42 42 42";
+					let reRegex = /(\d+)\s\1\s\1$/; // Change this line
+					let result = reRegex.test(repeatNum);
+					console.log(result);
+				}
+				noFour();
+				
+				//prob5
+				function noFive(){
+					let huhText = "This sandwich is good.";
+					let fixRegex = /good/; // Change this line
+					let replaceText = "okey-dokey"; // Change this line
+					let result = huhText.replace(fixRegex, replaceText);
+					console.log(result);
+				}
+				noFive();
+				
+				//prob6
+				function noSix(){
+					let hello = "   Hello, World!  ";
+					let wsRegex = /^\s+|\s+$/; // Change this line
+					let result = hello.replace(wsRegex,''); // Change this line
+					console.log(result);
+				}
+				noSix();
+				
+				//prob7
+				function noSeven(){
+					
+				}
+				noSeven();
+				
+				//prob8
+				function noEight(){
+					
+				}
+				noEight();
+				
+				//prob9
+				function noNine(){
+					
+				}
+				noNine();
+				
+				//prob10
+				function noTen(){
+					
+				}
+				noTen();
+				
+			
+		</script>
+	</body>
+</html>

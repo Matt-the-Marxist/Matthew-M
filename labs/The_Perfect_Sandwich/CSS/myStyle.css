@@ -1,0 +1,17 @@
+body {
+	background-color: lightblue;
+}
+.pagecontent {
+	background-image: linear-gradient(white, skyblue);
+	width: 75%;
+	margin: auto;
+	border:;
+	border-radius:0px 0px 5px 5px;
+	padding-left:20px;
+}
+.instructions {
+	width: 50%;
+	padding-bottom: 10px;
+	border:;
+	border-radius:5px;
+}

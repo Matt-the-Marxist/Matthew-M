@@ -1,65 +1,65 @@
 let number = prompt("enter a number", 0)
-let end;
+let end = '';
 
-function roman(arr,num){
-	if(num != 0){
+function roman(string,num){
+	while(num > 0){
 		if(num >=1000){
 			while(num >=1000){
-				arr.push("M");
-				num-1000;
+				string = string + "M";
+				num = num-1000;
 			}
 		}
 		if(num >=900){
 			while(num >=1000){
-				arr.push("CM");
-				num-900;
+				string = string + "CM";
+				num = num-900;
 			}
 		}
 		if(num >=500){
-			arr.push("D");
-			num-500;
+			string = string + "D";
+			num = num-500;
 		}
 		if(num >=400){
-			arr.push("CD");
-			num-400;
+			string = string + "CD";
+			num = num-400;
 		}
 		if(num >=100){
-			arr.push("C");
-			num-100;
+			string = string + "C";
+			num = num-100;
 		}
 		if(num >=90){
-			arr.push("XC");
-			num-90;
+			string = string + "XC";
+			num = num-90;
 		}
 		if(num >=50){
-			arr.push("L");
-			num-50;
+			string = string + "L";
+			num = num-50;
 		}
 		if(num >=40){
-			arr.push("M");
-			num-40;
+			string = string + "M";
+			num = num-40;
 		}
 		if(num >=10){
-			arr.push("X");
-			num-10;
+			string = string + "X";
+			num = num-10;
 		}
 		if(num >=9){
-			arr.push("IX");
-			num-9;
+			string = string + "IX";
+			num = num-9;
 		}
 		if(num >=5){
-			arr.push("V");
-			num-5;
+			string = string + "V";
+			num = num-5;
 		}
 		if(num >=4){
-			arr.push("IV");
-			num-4;
+			string = string + "IV";
+			num = num-4;
 		}
 		if(num >=1){
-			arr.push("I");
-			num-1;
+			string = string + "I";
+			num = num-1;
 		}
 	}
-	return arr;
+	return string;
 }
-console.log(roman(end , number));
+document.write(`${number} is ${roman(end , number)} in roman numerals`);

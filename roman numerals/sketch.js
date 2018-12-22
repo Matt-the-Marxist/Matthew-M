@@ -1,5 +1,7 @@
 let number = prompt("enter a number", 0)
 let end = '';
+let record = 0;
+let length = 0;
 
 function roman(string,num){
 	while(num > 0){
@@ -84,4 +86,11 @@ function roman(string,num){
 	}
 	return string;
 }
-document.write(`${number} is ${roman(end , number)} in roman numerals`);
+for(let i=0;i<=3999;i++){
+	document.write(`${i} is ${roman(end , i)} in roman numerals<br>`);
+	if (roman(end,i).length> length){
+		record = i;
+		length = roman(end,i).length;
+	}
+	
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<title>3.6.3</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+				<script>
+				//DON'T TOUCH
+				//this is the header
+				function header (){
+					var name = "Matthew Morrissette";
+					var date = new Date();
+					var day = date.getDate();
+					var month = date.getMonth() + 1;
+					var year = date.getFullYear()-2000;
+					document.write(name, "<br>"); 
+					document.write(month,"/",day,"/",year);
+				}
+				header()
+				//LEAVE ME ALONE
+				
+				//prob1
+				function noOne(){
+					function repeatStringNumTimes(str, num) {
+						let end = "";
+						for(i=0; i<num;i++){
+							end = end + str
+						}
+						// repeat after me
+						return end;
+					}
+
+				console.log(repeatStringNumTimes("abc", 3));
+
+				}
+				noOne();
+				
+				//prob2
+				function noTwo(){
+					function truncateString(str, num) {
+						// Clear out that junk in your trunk
+						let arr = str.split("");
+						for(i=(arr.length - num); i>0;i--){
+							arr.pop();
+						}
+						str = arr.join("")+"...";
+						return str;
+					}
+
+					console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));
+				}
+				noTwo();
+				
+				//prob3
+				function noThree(){
+					function findElement(arr, func) {
+						let num;
+						for(i=0; i<arr.length;i++){
+							if(func(arr[i])){
+								num = arr[i];
+								break;
+							}
+						}
+					return num;
+					}
+
+					console.log(findElement([1, 2, 3, 4], num => num % 2 === 0));
+
+				}
+				noThree();
+				
+				//prob4
+				function noFour(){
+					
+				}
+				noFour();
+				
+				//prob5
+				function noFive(){
+					
+				}
+				noFive();
+				
+				//prob6
+				function noSix(){
+					
+				}
+				noSix();
+				
+				//prob7
+				function noSeven(){
+					
+				}
+				noSeven();
+				
+				//prob8
+				function noEight(){
+					
+				}
+				noEight();
+				
+				//prob9
+				function noNine(){
+					
+				}
+				noNine();
+				
+				//prob10
+				function noTen(){
+					
+				}
+				noTen();
+				
+			
+		</script>
+	</body>
+</html>

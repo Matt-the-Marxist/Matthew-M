@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+		<title>3.6.2</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+				<script>
+				//DON'T TOUCH
+				//this is the header
+				function header (){
+					var name = "Matthew Morrissette";
+					var date = new Date();
+					var day = date.getDate();
+					var month = date.getMonth() + 1;
+					var year = date.getFullYear()-2000;
+					document.write(name, "<br>"); 
+					document.write(month,"/",day,"/",year);
+				}
+				header()
+				//LEAVE ME ALONE
+				
+				//prob1
+				function noOne(){
+					function findLongestWordLength(str) {
+						let record = -1;
+						let recordLength = 0;
+						let arr = str.split(" ");
+						for(let i = 0; i < arr.length; i++){
+							if(arr[i].length > recordLength){
+								record = i;
+								recordLength = arr[i].length;
+							}
+						}
+						str = arr[record];
+						
+						return str.length;
+					}
+
+					console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
+
+				}
+				noOne();
+				
+				//prob2
+				function noTwo(){
+					function largestOfFour(arr) {
+						// You can do this!
+						for(let i = 0; i<arr.length; i++){
+							let record = -1;
+							let recordValue = 0
+							for(let j = 0; j < arr[i].length; j++){
+								if(arr[i][j] > recordValue){
+								record = j;
+								recordValue = arr[i][j];
+								}
+							} 
+							arr[i] = arr[i][record];
+						}
+						return arr;
+					}
+
+					console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]),"first try btw w/o testing");
+				}
+				noTwo();
+				
+				//prob3
+				function noThree(){
+					function confirmEnding(str, target) {
+						let arr = str.split("");
+						let store = arr.pop();
+						if (store == target){
+							return true
+						}
+						return false;
+					}
+
+					console.log(confirmEnding("Bastian", "n"));
+
+				}
+				noThree();
+				
+				//prob4
+				function noFour(){
+					
+				}
+				noFour();
+				
+				//prob5
+				function noFive(){
+					
+				}
+				noFive();
+				
+				//prob6
+				function noSix(){
+					
+				}
+				noSix();
+				
+				//prob7
+				function noSeven(){
+					
+				}
+				noSeven();
+				
+				//prob8
+				function noEight(){
+					
+				}
+				noEight();
+				
+				//prob9
+				function noNine(){
+					
+				}
+				noNine();
+				
+				//prob10
+				function noTen(){
+					
+				}
+				noTen();
+				
+			
+		</script>
+	</body>
+</html>

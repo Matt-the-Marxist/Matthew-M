@@ -1,0 +1,41 @@
+#orb {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #blue;
+}
+
+#sky {
+    height: 100vh;
+    width: 100vw;
+}
+
+.sun {
+    background-color: #ffdd00;
+    border: 10px solid #f1c40f;
+}
+/*would ya look at that a realistic moon */
+.moon {
+    background-image: url("../media/moon.png");
+	background-size:360px 360px;
+	
+}
+/*and not so realistic stars*/
+.night {
+    background-image: url("../media/stars.gif");
+	background-size:vw vh;
+}
+.day {
+    background-color: #37d8e6;
+}
+.sun:hover {
+    border: 20px solid #f1c40f;
+}
+.visible {
+    background-color: #eaeff2;
+}
+

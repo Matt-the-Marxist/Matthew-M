@@ -14,15 +14,116 @@
 					var date = new Date();
 					var day = date.getDate();
 					var month = date.getMonth() + 1;
-					var year = date.getFullYear();
+					var year = date.getFullYear()-2000;
 					document.write(name, "<br>"); 
 					document.write(month,"/",day,"/",year);
 				}
 				header()
 				//LEAVE ME ALONE
-				//prob1
 				
-		
+				//prob1
+				function noOne(){
+					var myArray = [];
+					
+					// Only change code below this line.
+					for(i=0;i<=4;i++){myArray.push(i)}
+					console.log(myArray);
+				}
+				noOne();
+				
+				//prob2
+				function noTwo(){
+					var myArray = [];
+					for(i=0;i<=4;i++){myArray.push(i+1)}
+					console.log(myArray);
+					
+				}
+				noTwo();
+				
+				//prob3
+				function noThree(){
+					var myArray = [];
+					
+					// Only change code below this line.
+					for(i=0;i<10;i+=2){myArray.push(i+1)}
+					console.log(myArray);
+				}
+				noThree();
+				
+				//prob4
+				function noFour(){
+					var myArray = [];
+					
+					// Only change code below this line.
+					for(i=10;i>0;i-=2){myArray.push(i-1)}
+					console.log(myArray);
+				}
+				noFour();
+				
+				//prob5
+				function noFive(){
+					var myArr = [ 2, 3, 4, 5, 6];
+					let total = 0;
+					for(i=0; i<myArr.length;i++){
+						total += myArr[i];
+					}
+					console.log(total);
+				}
+				noFive();
+				
+				//prob6
+				function noSix(){
+					function multiplyAll(arr) {
+						var product = 1;
+						// Only change code below this line
+						for(i=0;i<arr.length;i++){
+							for(j=0;j<arr[i].length;j++){
+								product *= arr[i][j];
+							}
+						}
+						 // Only change code above this line
+						return product;
+					}
+
+					// Modify values below to test your code
+					console.log(multiplyAll([[1,2],[3,4],[5,6,7]]));
+
+				}
+				noSix();
+				
+				//prob7
+				function noSeven(){
+					var myArray = [];
+					var i = 10;
+					
+					// Only change code below this line.
+
+					while (i < 5) {
+						myArray.push(i);
+						i++;
+					}
+
+				}
+				noSeven();
+				
+				//prob8
+				function noEight(){
+					
+				}
+				noEight();
+				
+				//prob9
+				function noNine(){
+					
+				}
+				noNine();
+				
+				//prob10
+				function noTen(){
+					
+				}
+				noTen();
+				
 			
 		</script>
 	</body>

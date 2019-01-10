@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+	<head>
+		<title>3.6.4</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+				<script>
+				//DON'T TOUCH
+				//this is the header
+				function header (){
+					let name = "Matthew Morrissette";
+					let date = new Date();
+					let day = date.getDate();
+					let month = date.getMonth() + 1;
+					let year = date.getFullYear()-2000;
+					document.write(name, "<br>"); 
+					document.write(month,"/",day,"/",year);
+				}
+				header()
+				//LEAVE ME ALONE
+				
+				//prob1
+				function noOne(){
+					function booWho(bool) {
+						// What is the new fad diet for ghost developers? The Boolean.
+						if(typeof(bool)=="boolean"){
+							return true;
+						}
+						else{
+							return false;
+						}
+					}
+
+					console.log(booWho(null));
+				}
+				noOne();
+				
+				//prob2
+				function noTwo(){
+					function titleCase(str) {
+						let splitStr = str.toLowerCase().split(' ');
+						for (let i = 0; i < splitStr.length; i++) {
+							splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
+						}
+						return splitStr.join(' ');
+					}
+
+					console.log(titleCase("I'm a little tea pot"));
+				}
+				noTwo();
+				
+				//prob3
+				function noThree(){
+					function frankenSplice(arr1, arr2, n) {
+						 // It's alive. It's alive!
+						 for(i=arr1.length-1; i>=0; i--){
+							arr2.splice(n-1,0,arr1[i]);
+						 }
+						 return arr2;
+					}
+
+					console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+
+				}
+				noThree();
+				
+				//prob4
+				function noFour(){
+					
+				}
+				noFour();
+				
+				//prob5
+				function noFive(){
+					
+				}
+				noFive();
+				
+				//prob6
+				function noSix(){
+					
+				}
+				noSix();
+				
+				//prob7
+				function noSeven(){
+					
+				}
+				noSeven();
+				
+				//prob8
+				function noEight(){
+					
+				}
+				noEight();
+				
+				//prob9
+				function noNine(){
+					
+				}
+				noNine();
+				
+				//prob10
+				function noTen(){
+					
+				}
+				noTen();
+				
+			
+		</script>
+	</body>
+</html>

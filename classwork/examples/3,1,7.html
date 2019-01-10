@@ -102,6 +102,57 @@
 				return a < b;		
 			}
 			console.log(isLess(10, 15));
+			//problem6
+			function abTest(a, b) {
+				// Only change code below this line
+				switch(true){
+					case (a<0 || b<0):
+						return undefined;
+						break;
+					default:
+						return Math.round(Math.pow(Math.pow(a,0.5) + Math.pow(b,0.5), 2));
+						}
+			}
+
+			// Change values below to test your code
+			console.log(abTest(2,2));
+			//card Counting
+			var count = 0;
+			
+			function cardCount(card){
+				switch(card){
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						count++;
+						break;
+					case 7:
+					case 8:
+					case 9:
+						break;
+					case 10:
+					case 'J':
+					case 'Q':
+					case 'K':
+					case 'A':
+						count--;
+						break;
+				}
+				if(count <= 0){
+					console.log(`${count} hold`);
+				}
+				else{
+					console.log(`${count} bet`);
+				}	
+			}
+			var num = -1;
+			
+			while(num < 10){
+				num++;
+				cardCount(num);
+			}
 		</script>
 	</body>
 </html>

@@ -3,10 +3,14 @@ let num = 84;
 let speed = 7;
 let score;
 let lives;
-
+let play = true
 
 function setup() {
 	createCanvas(480,320);
+	if(play){startGame();}
+}
+function startGame(){
+	removeElements();
 	paddle = new Paddle;
 	puck = new Puck;
 	for(let i = 0; i < num; i++){
@@ -30,17 +34,25 @@ function draw() {
 	text(['Score:'+score],5,height-10);
 	text(['lives:'+lives],width-40,height-10);
 	if(lives <= 0){
-		for(let i = 0; i<num; i++){
-			bricks[i].hits = 0;
-		}
-		paddle.y = -100;
-		background(100);
-		fill(255);
-		textSize(75);
-		text('GAME OVER',10,height/2)
-		textSize(20);
-		text(['Score:'+score],width/2-50,height/2+25);
+		play = false;
+		endGame();
 	}
+}
+function endGame(){
+	for(let i = 0; i<num; i++){
+		bricks[i].hits = 0;
+	}
+	paddle.y = -100;
+	background(100);
+	fill(255);
+	textSize(75);
+	text('GAME OVER',10,height/2)
+	textSize(20);
+	text(['Score:'+score],width/2-50,height/2+25);
+	let myButton = createButton("play again?")
+	myButton.mousePressed(startGame());
+	myButton.position(width/2,3*height/4);
+	
 }
 
 function keyReleased(){

@@ -3,11 +3,12 @@ let num = 84;
 let speed = 7;
 let score;
 let lives;
-let play = true
+let play = true;
+let end = false;
 
 function setup() {
 	createCanvas(480,320);
-	if(play){startGame();}
+	startGame();
 }
 function startGame(){
 	removeElements();
@@ -21,7 +22,7 @@ function startGame(){
 	lives = 3;
 }
 
-function draw() {
+function runGame(){
 	background(0);
 	paddle.show();
 	puck.show();
@@ -34,9 +35,13 @@ function draw() {
 	text(['Score:'+score],5,height-10);
 	text(['lives:'+lives],width-40,height-10);
 	if(lives <= 0){
-		play = false;
-		endGame();
+		end = true;
 	}
+}
+
+function draw() {
+	if(end){endGame();}
+	else{runGame()}
 }
 function endGame(){
 	for(let i = 0; i<num; i++){

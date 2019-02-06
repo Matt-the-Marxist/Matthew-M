@@ -4,3 +4,5 @@ function displayTime() {
 	var minutes = currentTime.getMinutes();
    	var seconds = currentTime.getSeconds();
 }
+
+var clockDiv = document.getElementById('clock');

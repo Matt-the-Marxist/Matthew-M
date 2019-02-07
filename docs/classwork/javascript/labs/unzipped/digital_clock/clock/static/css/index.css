@@ -1,0 +1,27 @@
+body {
+	background-color: #5D3F6A;
+	justify-content: center;
+}
+
+#clock {
+	height: 100px;
+	width: 800px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	padding-top: 70px;
+	font-family: courier, monospace;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+}
+#showClock {
+	margin:auto;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}

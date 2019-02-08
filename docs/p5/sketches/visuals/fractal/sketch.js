@@ -6,10 +6,13 @@ function draw() {
 	background(51);
 	stroke(255);
 	noFill();
-	triangleThing(width/3, y, 2 * width / 3, y, width/2, height/3);
+	circleFractal(width/2, height/2, height/3);
 }
 
-function triangleThing(x, y, a, b, v, w){
-	triangle(x, y, a, b, v, w);
-	
+function circleFractal(x, y, w){
+	ellipse(x, y, w, w);
+	if(x>10){
+		circleFractal(x-x/3,y,w/2);
+		circleFractal(x+x/3,y,w/2);
+	}
 }

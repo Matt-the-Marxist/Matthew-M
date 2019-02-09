@@ -1,4 +1,3 @@
-let number = prompt("enter a number", 0)
 let end = '';
 let record = 0;
 let length = 0;

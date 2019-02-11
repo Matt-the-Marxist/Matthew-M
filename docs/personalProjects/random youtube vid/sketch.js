@@ -7,4 +7,4 @@ for(let i=0; i<11; i++){
 	base = base + pullarr[index];
 }
 
-window.location.replace(base);
+document.write(base);

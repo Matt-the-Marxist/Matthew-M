@@ -6,4 +6,5 @@ for(let i=0; i<11; i++){
 	index = Math.random()*(pullarr.length+1);
 	base = base + pullarr[index];
 }
-document.write(base);
+
+window.location.replace(base);

@@ -4,5 +4,6 @@ let pullarr = ["1","2","3","4","5","6","7","8","9","0","a","b","c","d","e","f","
 
 for(let i=0; i<11; i++){
 	index = Math.random()*(pullarr.length+1);
-	base = base + pullarr
+	base = base + pullarr[index]
 }
+document.write(base)

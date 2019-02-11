@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<builder>
+
+<confLang>1</confLang>
+
+<character>
+<race>Half-orc</race>
+<class>Bard</class>
+<level>2</level>
+<background>Criminal</background>
+
+<str>13</str>
+<dex>15</dex>
+<con>15</con>
+<int>7</int>
+<wis>11</wis>
+<cha>17</cha>
+
+<lvl lvl="1"><hp_brut>8</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="2"><hp_brut>5</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="3"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="4"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="5"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="6"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="7"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="8"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="9"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="10"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="11"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="12"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="13"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="14"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="15"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="16"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="17"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="18"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="19"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+<lvl lvl="20"><hp_brut>0</hp_brut><aug_carac0>-1</aug_carac0><aug_carac1>-1</aug_carac1><feat_custom>-1</feat_custom></lvl>
+
+<raceCustom></raceCustom>
+<styleCombat1></styleCombat1>
+<styleCombat2></styleCombat2>
+<favoredEnemy0></favoredEnemy0>
+<favoredEnemy6></favoredEnemy6>
+<favoredEnemy14></favoredEnemy14>
+<pack>3</pack>
+<backSpe></backSpe>
+
+<skillsProf id="0">7</skillsProf>
+<skillsProf id="1">13,12,17</skillsProf>
+<skillsProf id="2">17,3</skillsProf>
+<skillsProf id="3"></skillsProf>
+<toolsProf id="0"></toolsProf>
+<toolsProf id="1">bagpipes, bagpipes, bagpipes</toolsProf>
+<toolsProf id="2">dice set, thieves' tools</toolsProf>
+<toolsProf id="3"></toolsProf>
+<languages id="0">common,orc</languages>
+<languages id="1"></languages>
+<languages id="2"></languages>
+<languages id="3"></languages>
+
+<knownSpell lvl="0">dancing-lights</knownSpell>
+<knownSpell lvl="0">vicious-mockery</knownSpell>
+<knownSpell lvl="1">detect-magic</knownSpell>
+<knownSpell lvl="1">sleep</knownSpell>
+<knownSpell lvl="1">disguise-self</knownSpell>
+<knownSpell lvl="1">cure-wounds</knownSpell>
+<knownSpell lvl="1">animal-friendship</knownSpell>
+
+<gp>15</gp>
+<pp>0</pp>
+<ep>0</ep>
+<sp>0</sp>
+<cp>0</cp>
+
+<armor>2</armor>
+<shield>0</shield>
+<weapon>11,8</weapon>
+<weaponQ>1,1</weaponQ>
+<tools>4,12,0</tools>
+
+<item>80,81,93,6,76,39,66,92</item>
+<itemQ>1,1,2,5,5,1,1,1</itemQ>
+<itemX>belt pouch</itemX>
+<name>Estra</name>
+<sexe>1</sexe>
+<age>25</age>
+<height>5ft 2in</height>
+<weight>150 lb.</weight>
+<alignment>4</alignment>
+<xp>300</xp>
+<eyes>red</eyes>
+<skin>green</skin>
+<hair>black</hair>
+
+<appearance></appearance>
+<traits></traits>
+<ideals></ideals>
+<bonds></bonds>
+<flaws></flaws>
+
+<backstory></backstory>
+<allies></allies>
+<features></features>
+<treasure></treasure>
+
+</character>
+</builder>

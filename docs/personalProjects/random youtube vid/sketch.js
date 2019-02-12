@@ -11,3 +11,5 @@ function randYoutubeVid(){
 function clicker(){
 	window.open(randYoutubeVid());
 }
+
+//api key:AIzaSyC1XVF5CtsW7yv9K6wwgdCYMepINJBakMA

@@ -1,7 +1,7 @@
 let weather;
 //gets location
 function ipLookUp () {
-	$.ajax('http://ip-api.com/json/')
+	$.ajax('https://ip-api.com/json/')
 	.then(
 		function success(response) {
 			let lat = response.lat.toString();

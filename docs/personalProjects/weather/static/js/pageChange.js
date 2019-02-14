@@ -5,7 +5,14 @@ function update(){
 		let blue = Math.round(map(weather.clouds.all,0,100,255,170)).toString(16);
 		$("body").css("background-color","#"+red+green+blue);
 	}
+	function cloudTransparency(){
+		console.log("hi")
+		let opacity = map(weather.clouds.all,0,100,0,1);
+		$("clouds").css("opacity",opacity);
+		console.log(opacity);
+	}
 	bgColor();
+	cloudTransparency();
 }
 
 function map(value, start1, end1, start2, end2){

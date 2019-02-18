@@ -9,8 +9,8 @@ function ipLookUp () {
 			getWeather(lat, lon);
 		},
 		function fail(data, status) {
-			console.log('Request failed.  Returned status of',
-						status);
+			console.log('Request failed.  Returned status of',status);
+			ipLookUp();
 		}
 	);
 }
@@ -24,6 +24,7 @@ function getWeather(lat,lon) {
 	.then(
 		function success(response) {
 			weather = response;
+			console.log(weather);
 			update();
 		},
 

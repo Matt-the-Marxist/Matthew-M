@@ -5,17 +5,28 @@
 }
 
 #sun{
-	background-image:url(../media/sun.png);
 	background-size: 300px 300px;
 	height:300px;
 	width:300px;
 	margin: auto;
 }
 #clouds{
-	background-image:url(../media/clouds.png);
 	background-size: 300px 217px;
 	height:300px;
-	width:300px;
-	margin: auto;
-	background-repeat: no-repeat;
+	width:450px;
+	margin: auto -75px;
+	background-repeat: repeat-x;
+	animation:mymove infinite;
+	animation-timing-function: linear;
+	
+}
+
+@keyframes mymove {
+	0% {
+		background-position: -300px 100%;
+	}
+
+	100% {
+		background-position: 0px 100%;
+	}
 }

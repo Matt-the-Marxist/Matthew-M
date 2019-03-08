@@ -3,5 +3,4 @@ t = turtle
 """
 """
 
-		
 t.exitonclick()

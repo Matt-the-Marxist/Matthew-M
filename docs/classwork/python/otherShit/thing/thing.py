@@ -9,6 +9,7 @@ m = math
 t.bgcolor("black")
 
 t.speed(0)
+t.ht()
 
 height = turtle.window_height()
 width = turtle.window_width()
@@ -48,27 +49,35 @@ def land(x,y,r,theta):
 	t.pu()
 	t.goto(x,y)
 	t.color("dark green")
-	t.seth(theta-90)
+	t.seth(theta-180)
+	if y<=0:
+		t.seth(theta)
+		
+	t.begin_fill()
+	t.circle(r)
+	t.end_fill()
+
 	
 	
 	
 
-def landSetter(x,y,r):
-	theta = m.degrees(m.atan(x/y))
+def landSetter(x,y):
+	theta = m.degrees(m.atan(-x/y))
 	dist = (x*x+y*y)**.5
 	if dist > 150:
-		landSetter(r.randint(-150,150), r.randint(-150,150), r.randint(0,150))
+		landSetter(r.randint(-150,150), r.randint(-150,150))
 	else:
-		land(x,y,r,theta)
+		rad = r.randint(0, int(dist))
+		land(x,y,rad,theta)
 		
-"""
+
 for i in range(200):
 	starSetter()
-"""
+
 
 water()
 
-for i in range(r.randint(0,15)):
-	landSetter(r.randint(-150,150), r.randint(-150,150), r.randint(0,150))
+for i in range(r.randint(5,15)):
+	landSetter(r.randint(-150,150), r.randint(-150,150))
 
 t.exitonclick()

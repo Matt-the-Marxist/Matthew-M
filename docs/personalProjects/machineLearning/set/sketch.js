@@ -40,7 +40,7 @@ for (let i = 0; i < colors.length; i++) {
     });
 }
 
-let net = new brain.NeuralNetwork({ hiddenLayers: [2,1] });
+let net = new brain.NeuralNetwork({ hiddenLayers: [3] });
 
 console.log(net.train(trainingData));
 

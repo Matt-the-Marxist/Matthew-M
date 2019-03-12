@@ -3,7 +3,7 @@ let cols, rows;
 
 let particles = []
 let flowfield = []
-let noParticles = 5;
+let noParticles = 50;
 
 function setup() {
 	createCanvas(480,320)

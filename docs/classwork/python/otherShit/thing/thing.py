@@ -14,6 +14,20 @@ t.ht()
 height = turtle.window_height()
 width = turtle.window_width()
 
+
+# makes sure that the x and y of the star 
+# isn't where the planet is gonna be
+def starSetter():
+	x = r.randint(-width/2,width/2) 
+	y = r.randint(-height/2,height/2)
+	print((x*x+y*y)**.5>160)
+	
+	if( (x*x+y*y)**.5>160 ):
+		star(x, y)
+	else:
+		starSetter()
+
+#  draws a star
 def star(x, y):
 	t.pu()
 	t.goto(x, y)
@@ -24,6 +38,7 @@ def star(x, y):
 		t.fd(10)
 		t.lt(144)
 
+# 
 def water():
 	t.pu()
 	t.goto(0,-150)
@@ -34,17 +49,16 @@ def water():
 	t.circle(150)
 	t.end_fill()
 
-def starSetter():
-	x = r.randint(-width/2,width/2) 
-	y = r.randint(-height/2,height/2)
-	print((x*x+y*y)**.5>160)
-	
-	if( (x*x+y*y)**.5>160 ):
-		star(x, y)
+# makes sure that the land is on the planet
+def landSetter(x,y):
+	theta = m.degrees(m.atan(-x/y))
+	dist = (x*x+y*y)**.5
+	if dist > 150:
+		landSetter(r.randint(-150,150), r.randint(-150,150))
 	else:
-		starSetter()
-	
-
+		rad = r.randint(10, int(dist/2))
+		land(x,y,rad,theta)
+		
 def land(x,y,r,theta):
 	t.pu()
 	t.goto(x,y)
@@ -57,27 +71,13 @@ def land(x,y,r,theta):
 	t.circle(r)
 	t.end_fill()
 
-	
-	
-	
-
-def landSetter(x,y):
-	theta = m.degrees(m.atan(-x/y))
-	dist = (x*x+y*y)**.5
-	if dist > 150:
-		landSetter(r.randint(-150,150), r.randint(-150,150))
-	else:
-		rad = r.randint(0, int(dist))
-		land(x,y,rad,theta)
-		
-
-for i in range(200):
-	starSetter()
-
 
 water()
 
 for i in range(r.randint(5,15)):
 	landSetter(r.randint(-150,150), r.randint(-150,150))
+
+for i in range(200):
+	starSetter()
 
 t.exitonclick()

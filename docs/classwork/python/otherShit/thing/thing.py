@@ -6,6 +6,12 @@ t = turtle
 r = random
 m = math
 
+"""
+makes a planet
+
+makes a whole bunch of stars
+"""
+
 t.bgcolor("black")
 
 t.speed(0)
@@ -38,7 +44,7 @@ def star(x, y):
 		t.fd(10)
 		t.lt(144)
 
-# 
+# creates the planet
 def water():
 	t.pu()
 	t.goto(0,-150)
@@ -58,7 +64,8 @@ def landSetter(x,y):
 	else:
 		rad = r.randint(10, int(dist/2))
 		land(x,y,rad,theta)
-		
+
+# makes land
 def land(x,y,r,theta):
 	t.pu()
 	t.goto(x,y)
@@ -77,7 +84,7 @@ water()
 for i in range(r.randint(5,15)):
 	landSetter(r.randint(-150,150), r.randint(-150,150))
 
-for i in range(200):
+for i in range(r.randint(100,200)):
 	starSetter()
 
 t.exitonclick()

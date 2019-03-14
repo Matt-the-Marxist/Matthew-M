@@ -1,3 +1,4 @@
+#writes the name vertically
 name = input("what is your name: ")
 
 letters = list(name)

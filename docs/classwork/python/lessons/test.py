@@ -1,2 +1,2 @@
-x = input("Enter some text: ")
-print(x)
+var = "hello" * 3
+print(var)

@@ -56,8 +56,8 @@ h2 {
     width: 280px;
     border:10px solid #2b2b2b;
     float: left;
-    background-color: #77da62;
-    overflow: hidden;
+    background-image: url("../media/hall.jpg");
+	background-size: 280px 280px;
 }
 
 #panel3 {
@@ -66,8 +66,8 @@ h2 {
     width: 480px;
     border:10px solid #2b2b2b;
     float: left;
-    background-color: #00d26d;
-    overflow: hidden;
+    background-image: url("../media/graveyard.jpg");
+	background-size: 480px 280px;
 }
 
 #panel4 {
@@ -104,7 +104,7 @@ h2 {
 }
 
 .bigtext {
-    font-family: "Comic Sans MS";
+    font-family: "Times New Roman";
     color: white;
     font-style: italic;
     font-weight: 900;

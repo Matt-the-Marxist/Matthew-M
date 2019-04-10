@@ -1,2 +1,2 @@
-var = "hello" * 3
-print(var)
+for i in range(10):
+    print(i)

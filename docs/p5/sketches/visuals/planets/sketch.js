@@ -5,22 +5,20 @@ let moon;
 
 function setup() {
 	createCanvas(1200, 1200)
- 
 	earth = new Planet(0, 0, 0, 0, 5.972*pow(10,24))
-	moon = new Planet(405.4, 0, 1, -1, 7.348*pow(10,22))
+	moon = new Planet(405400, 0, 0, 1022, 7.348*pow(10,22))
 	grav(earth, moon)
+	background(0)
 }
 
 function draw() {
-	translate(width/2-earth.pos.x/680, height/2-earth.pos.y/680)
-	background(0)
-	for(let i=0;i<100; i++){
-		earth.show()
-		moon.show()
-		earth.update()
-		moon.update()
-		console.log(earth.pos.dist(moon.pos))
-	}
+	translate(width/2-moon.pos.x/680, height/2-moon.pos.y/680)
+	background(0,1)
+	grav(earth, moon)
+	earth.show()
+	moon.show()
+	earth.update()
+	moon.update()
 }
 
 function force(p1, p2){
@@ -52,8 +50,8 @@ function Planet(x, y, vx, vy, mass){
 	}
 	
 	this.update = function(){
-		this.pos.add(this.vel);
-		this.vel.add(this.acc)
-		this.acc.mult(0)
+		this.pos = this.pos.add(this.vel);
+		this.vel = this.vel.add(this.acc)
+		this.acc = this.acc.mult(0)
 	}
 }

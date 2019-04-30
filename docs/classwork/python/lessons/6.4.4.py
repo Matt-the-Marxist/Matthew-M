@@ -1,6 +1,4 @@
-#adds one
-def add1(num):
-	return num+1
+name = input("What is your name? ")
+length = len(name)
 
-for i in range(10):
-	print(add1(i))
+print("There are "+str(length)+" letters in your name")

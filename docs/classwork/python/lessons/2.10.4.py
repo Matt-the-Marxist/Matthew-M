@@ -5,7 +5,7 @@ import turtle
 import math
 tracey = turtle
 
-tracey.speed(1)
+tracey.speed(0)
 
 # This function will draw a row of 10 circles.
 def draw_circle_row():

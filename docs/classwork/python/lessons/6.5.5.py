@@ -1,7 +1,10 @@
-def checkVowels(str):
-	vowels = "aeiouAEIOU"
-	for letter in vowels:
-		if str.search(letter) >-1:
-			return True
+#checks a user entered string for vowels
+vowels = ["a","e","i","o","u"]
 
-print(checkVowels(input("Enter a string: ")))
+answer = input("Enter something: ")
+
+if any(letter in answer for letter in vowels):
+	print("Contains a vowel")
+else:
+	print("Doesn't contain a vowel")
+	

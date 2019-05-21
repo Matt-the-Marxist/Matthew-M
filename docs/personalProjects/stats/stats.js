@@ -10,17 +10,12 @@ function normCDF(lower, upper, mu, sigma){
 		a+= step*normPDF(i, mu, sigma);
 	}
 	t2 = new Date().getTime()
-	console.log(t2-t1)
+	console.log((t2-t1)/1000, " seconds")
 	return a;
 }
 
 function erf(x) {
-  if(x>0){
-	
-  }
-  else{
-	  
-  }
+ 
 }
 
 function invNorm(Area, mu, sigma){

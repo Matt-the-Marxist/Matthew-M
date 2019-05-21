@@ -3,7 +3,7 @@ let grav = 9.80665;
 
 function setup() {
 	createCanvas(400, 400);
-	bob = new Bob(30, 300)
+	bob = new Bob(30, 201)
 }
 
 function draw() {
@@ -14,11 +14,9 @@ function draw() {
 }
 
 function Bob(mass, len){
-	if(len<200){
-		len = 200
-	}
 	let x = -200;
 	let y = sqrt(len*len-200*200);
+	console.log(y)
 	this.length = len
 	this.pos = createVector(x, y);
 	this.vel = createVector(0, 0);
@@ -35,14 +33,10 @@ function Bob(mass, len){
 		this.pos.add(this.vel);
 		this.vel.add(this.acc);
 		this.acc.mult(0);
-		this.angle = atan(-this.pos.y/this.pos.x)
-		writeSingleLine(this.mass*grav*sin(this.angle))
-		this.acc.add(this.mass*grav*sin(this.angle)*.8)
 		this.pos.normalize().mult(this.length)
+		
+		this.angle = this.pos.heading()
+		print((grav*sin(this.angle))/this.mass)
+		this.acc.add((grav*sin(this.angle))/this.mass)
 	}
-}
-
-function writeSingleLine (msg) {
-	console.clear();
-	console.log(msg);
 }

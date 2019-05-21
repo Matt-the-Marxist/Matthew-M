@@ -1,3 +1,5 @@
+# returns max of list
+
 def Max(myList = [],*args):
 	max  = -float("inf")
 	for i in myList:

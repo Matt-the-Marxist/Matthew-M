@@ -1,3 +1,4 @@
+# replaces "i" with "!"
 import re
 
 def replI(str):

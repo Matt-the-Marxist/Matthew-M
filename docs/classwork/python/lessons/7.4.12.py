@@ -1,3 +1,6 @@
+# prints author names in order of last name
+
+import pprint
 def getNames():
 	while True:
 		try:
@@ -20,6 +23,6 @@ def fiveAuthors():
 		authors.append(getNames())
 			
 	authors = sorted(authors, key=lambda k: k["Last Name"])
-	print(authors)
+	pprint.pprint(authors)
 
 fiveAuthors()

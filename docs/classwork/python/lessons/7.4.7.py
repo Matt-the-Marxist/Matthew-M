@@ -1,4 +1,4 @@
-
+# prints authors names in alphabetical order
 
 def fiveAuthors():
 	authors = []

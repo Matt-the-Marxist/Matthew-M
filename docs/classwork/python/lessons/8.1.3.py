@@ -1,3 +1,4 @@
+#prints a checkerboard
 def printBoard(board):
 	for i in board:
 		print(" ".join(i))

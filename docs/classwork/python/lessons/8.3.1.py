@@ -1,0 +1,1 @@
+print((input("x: "),input("y: ")))

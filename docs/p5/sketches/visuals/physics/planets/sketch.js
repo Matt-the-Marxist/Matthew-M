@@ -22,7 +22,6 @@ function draw() {
 		for(let j=0; j<planets.length; j++){
 			for(let k=planets.length-1; k>j; k--){
 				grav(planets[j],planets[k])
-				console.log(planets[j].name,planets[k].name)
 			}
 		}
 		for(let j=0; j<10;j++){

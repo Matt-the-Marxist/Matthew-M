@@ -47,12 +47,10 @@ def GetSeven(num, record):
 				method+="t"
 n = TripleAndHalf()
 record = float("inf")
-import os
 while True:
 
 	x = GetSeven(n, record)
-	if len(x)<record and x!="":
+	if len(x)<=record and x!="":
 		record = len(x)
-		os.system("cls")
 		print(x)
 	n.resetNum()

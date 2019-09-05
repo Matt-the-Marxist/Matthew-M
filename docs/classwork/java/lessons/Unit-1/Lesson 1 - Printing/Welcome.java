@@ -2,6 +2,7 @@ public class Welcome
 {
     public static void main(String[] args)
     {
-        //your code here
+        System.out.println("My name is Matt.");
+        System.out.println("I like cooking.");
     } 
 }

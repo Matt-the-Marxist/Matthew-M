@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Art",
+            "request": "launch",
+            "mainClass": "Art"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Welcome",
+            "request": "launch",
+            "mainClass": "Welcome"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Printing",
             "request": "launch",
             "mainClass": "Printing"

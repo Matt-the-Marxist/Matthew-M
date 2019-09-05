@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - variables_Int",
+            "request": "launch",
+            "mainClass": "variables_Int",
+            "projectName": "Lesson 2 - Variables and Data_df21e49a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Variables",
+            "request": "launch",
+            "mainClass": "Variables",
+            "projectName": "Lesson 2 - Variables and Data_df21e49a"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Schedule</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+		<script src="../app/jquery-3.3.1.min.js"></script>
+		<script src="../app/jquery.csv.min.js"></script>
+		<script src="../static/js/index.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div>
+			<img src="../static/media/william-lawrence-camp-logo.png">
+			</div>
+			<div>
+			<h1>Bill Larry Schedule Creator</h1>
+			</div>
+		</div>
+		<div id="content">
+			<div class="nav">
+				<div class="navOp Vco">View Counselors</div><div class="navOp Aco">Add Counselor</div>
+			</div>
+			<div class="body">
+				<form>
+					
+				</form>
+			</div>
+		</div>
+		<div id="overlay">
+			<div class="viewCounselors">
+				<div class="closeOverlay">X</div>
+				
+			</div>
+			<div class="addCounselor">
+				<div class="closeOverlay">X</div>
+				<form class="counselor">
+					<div>First Name:<input name="firstName"></div><br>
+					<div>Last Name:<input name="lastName"></div><br>
+					<div>Nick Name:<input name="nickName"></div><br>
+					<div>Age:<input name="age" type="number"></div><br>
+					<div>Unit:<select name="Unit" class="unitSelect">
+						<option value="" selected>--Select One--</option>
+						<option value="Junior">Junior</option>
+						<option value="Middler">Middler</option>
+						<option value="Senior">Senior</option>
+					</select></div><br>
+					<div>Cabin:<select name="cabin" class="cabinSelect">
+						<option value="">--Select One--</option>
+					</select></div><br>
+					<span>Certifications</span><div class="certs"><div><div class="addCert">+</div><select name="cert0">
+						<option value="" selected>--Select One--</option>
+						<option value="Archery Instructor">Archery Instructor</option>
+						<option value="CWI">Climbing Wall Instructor</option>
+						<option value="EMT">EMT</option>
+						<option value="High Ropes">High Ropes</option>
+						<option value="Lifeguard">Lifeguard</option>
+						<option value="Low Ropes">Low Ropes</option>
+						<option value="Riflery Instructor">Riflery Instructor</option>
+						<option value="WFA">WFA</option>
+						<option value="WFR">WFR</option>
+						<option value="WSI">WSI</option>
+						<option value="Driver's License">Driver's License</option>
+					</select></div><br>
+					</div>
+					<input type="submit" value="Add Counselor" class="submit">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

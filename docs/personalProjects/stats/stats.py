@@ -1,61 +1,20 @@
-import pprint
+from math import erf, e, pi, inf, gamma
+import pyerf
+import pybeta
 
-def OneVarStats(*args):
-    result = {}
-    l1 = args[0]
-    try:
-        fl = args[1]
-        result["n"] = sum(fl)
-    except:
-        fl = []
-        result["n"] = 0
-        for i in l1:
-            fl.append(1/len(l1))
-            result["n"] += 1
-           
-    result["µ"] = mean(l1, fl)
-    result["σx"],result["Sx"] = stdev(l1, fl)
-    result["min"] = min(l1)
-    result["max"] = max(l1)
-    return result
-    
+def normPDF(x, mu=0, sigma=1):
+	return (1/(2*pi*(sigma**2))**.5)*(e**(-((x-mu)**2)/2*(sigma**2)))
 
-def mean(*args):
-    l1 = args[0]
-    try:
-        fl = args[1]
-        n = sum(fl)
-        if sum(fl) !=1:
-            fl = [x/sum(fl) for x in fl]
-    except:
-        fl = []
-        n = 0
-        for i in l1:
-            fl.append(1/len(l1))
-            n += 1
-           
-    return sum([a*b for a,b in zip(l1,fl)])
+def normCDF(low, high, mu=0, sigma=1):
+	return ((1+erf((high-mu)/(sigma*2**.5)))*.5)-((1+erf((low-mu)/(sigma*2**.5)))*.5)
 
-def stdev(*args):
-    l1 = args[0]
-    try:
-        fl = args[1]
-        n = sum(fl)
-        if sum(fl) !=1:
-            fl = [x/sum(fl) for x in fl]
-    except:
-        fl = []
-        n = 0
-        for i in l1:
-            fl.append(1/len(l1))
-            n += 1
-    m = mean(l1,fl)
-    
-    stdev = (((1/n)*sum([(x-m)**2 for x,f in zip(l1,fl)]))**.5, ((1/(n-1))*sum([(x-m)**2 for x,f in zip(l1,fl)]))**.5)
-    return stdev
-    
-    
-list1 = [1,2,3,4,5,6]
-list2 = [6,5,4,3,2,1]
+def invNorm(x, mu=0, sigma=1):
+	return mu+sigma*((2**.5)*pyerf.erfinv(2*x-1))
 
-pprint.pprint(OneVarStats(list1, list2), width=4, indent=4)
+def tPDF(x, df=1):
+	return (gamma((df+1)/2)/((df*pi)**.5*gamma(df/2)))*((1+((x**2)/df))**(-(df+1)/2))
+
+def tCDF(low, high, df=1):
+	.5+high*gamma((df+1)/2)*(hypgeo()/((pi*df)**.5*gamma(df/2)))
+	
+print(tCDF())

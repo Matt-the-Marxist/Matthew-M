@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="prob5" themeId="0" version="65538" templateID="SimpleProjectTemplate">
+  <MediaItems>
+    <MediaItem id="1" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5.png" arWidth="1477" arHeight="724" duration="0" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="2" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5.mp3" arWidth="0" arHeight="0" duration="91.751999999999995" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="3" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5PartA.png" arWidth="1389" arHeight="247" duration="0" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="4" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5PartA.mp3" arWidth="0" arHeight="0" duration="9.5039999999999996" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="5" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5PartB.png" arWidth="1477" arHeight="314" duration="0" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="6" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5PartB.mp3" arWidth="0" arHeight="0" duration="11.784000000000001" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="7" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5PartC.png" arWidth="1477" arHeight="540" duration="0" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="8" filePath="C:\Users\Matthew Morrissette\Documents\GitHub\schoolStuff\docs\personalProjects\stats\prob5PartC.mp3" arWidth="0" arHeight="0" duration="44.832000000000001" songTitle="" songArtist="" songAlbum="" />
+  </MediaItems>
+  <Extents>
+    <ImageClip extentID="5" gapBefore="0" mediaItemID="1" duration="92">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <AudioClip extentID="6" gapBefore="0" mediaItemID="2" inTime="0" outTime="91.751999999999995" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <ImageClip extentID="7" gapBefore="0" mediaItemID="3" duration="15.75">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <AudioClip extentID="8" gapBefore="0.8058145027160748" mediaItemID="4" inTime="0" outTime="0" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <ImageClip extentID="9" gapBefore="0" mediaItemID="5" duration="17.5">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <AudioClip extentID="10" gapBefore="6.235060497283925" mediaItemID="6" inTime="0" outTime="0" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <ImageClip extentID="11" gapBefore="0" mediaItemID="7" duration="50.5">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <AudioClip extentID="12" gapBefore="5.4847499999999911" mediaItemID="8" inTime="0" outTime="0" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <ExtentSelector extentID="1" gapBefore="0" primaryTrack="true">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="5" />
+        <ExtentRef id="7" />
+        <ExtentRef id="9" />
+        <ExtentRef id="11" />
+      </ExtentRefs>
+    </ExtentSelector>
+    <ExtentSelector extentID="2" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="6" />
+        <ExtentRef id="8" />
+        <ExtentRef id="10" />
+        <ExtentRef id="12" />
+      </ExtentRefs>
+    </ExtentSelector>
+    <ExtentSelector extentID="3" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+    <ExtentSelector extentID="4" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+  </Extents>
+  <BoundPlaceholders>
+    <BoundPlaceholder placeholderID="SingleExtentView" extentID="0" />
+    <BoundPlaceholder placeholderID="Main" extentID="1" />
+    <BoundPlaceholder placeholderID="SoundTrack" extentID="2" />
+    <BoundPlaceholder placeholderID="Text" extentID="4" />
+    <BoundPlaceholder placeholderID="Narration" extentID="3" />
+  </BoundPlaceholders>
+  <BoundProperties>
+    <BoundPropertyFloatSet Name="AspectRatio">
+      <BoundPropertyFloatElement Value="1.3333332538604736" />
+    </BoundPropertyFloatSet>
+    <BoundPropertyFloat Name="SoundTrackMix" Value="1" />
+  </BoundProperties>
+  <ThemeOperationLog themeID="0">
+    <MonolithicThemeOperations />
+  </ThemeOperationLog>
+</Project>

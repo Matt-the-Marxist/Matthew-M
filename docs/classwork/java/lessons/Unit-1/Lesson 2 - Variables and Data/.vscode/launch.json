@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Answer",
+            "request": "launch",
+            "mainClass": "Answer",
+            "projectName": "Lesson 2 - Variables and Data_86dbf40c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - variables_Int",
             "request": "launch",
             "mainClass": "variables_Int"

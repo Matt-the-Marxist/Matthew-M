@@ -2,6 +2,25 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Addfractions",
+            "request": "launch",
+            "mainClass": "Addfractions",
+            "projectName": "Lesson 4 - Arithmetic_3f66cef8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddFractions",
+            "request": "launch",
+            "mainClass": "AddFractions"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pyramid",
+            "request": "launch",
+            "mainClass": "Pyramid"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TrickyJava",
             "request": "launch",
             "mainClass": "TrickyJava"

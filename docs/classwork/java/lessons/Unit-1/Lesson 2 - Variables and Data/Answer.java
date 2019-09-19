@@ -2,10 +2,10 @@ public class Answer
 {
 
     public static void main(String[] args) {
-        String myName = 
-        int luckyNumber =
-        double currentTemperature =
-        boolean isStudent = 
+        String myName = "Karel the Dog";
+        int luckyNumber = 11;
+        double currentTemperature = 75.3;
+        boolean isStudent = true;
         
         System.out.println(myName);
         System.out.println(luckyNumber);

@@ -2,6 +2,26 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Poetry",
+            "request": "launch",
+            "mainClass": "Poetry",
+            "projectName": "Lesson 3 - User Input_8164efc4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AboutYou",
+            "request": "launch",
+            "mainClass": "AboutYou",
+            "projectName": "Lesson 3 - User Input_8164efc4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UserInput",
+            "request": "launch",
+            "mainClass": "UserInput"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - UserInput",
             "request": "launch",
             "mainClass": "UserInput",

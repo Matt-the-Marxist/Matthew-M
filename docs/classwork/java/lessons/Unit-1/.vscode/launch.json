@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BooleanTest",
+            "request": "launch",
+            "mainClass": "BooleanTest",
+            "projectName": "Unit-1_28259176"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IceCream",
+            "request": "launch",
+            "mainClass": "IceCream",
+            "projectName": "Unit-1_28259176"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MovieRatings",
+            "request": "launch",
+            "mainClass": "MovieRatings",
+            "projectName": "Unit-1_28259176"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CastingToDouble",
+            "request": "launch",
+            "mainClass": "CastingToDouble",
+            "projectName": "Unit-1_28259176"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CastingToInt",
+            "request": "launch",
+            "mainClass": "CastingToInt"
+        }
+    ]
+}

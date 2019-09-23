@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BugHunter",
+            "request": "launch",
+            "mainClass": "BugHunter"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringConcatenation",
+            "request": "launch",
+            "mainClass": "StringConcatenation",
+            "projectName": "Lesson 8 - String Processing_c0539be9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Palindromes",
+            "request": "launch",
+            "mainClass": "Palindromes",
+            "projectName": "Lesson 8 - String Processing_c0539be9"
+        }
+    ]
+}

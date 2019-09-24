@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MadLibs",
+            "request": "launch",
+            "mainClass": "MadLibs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IceCream",
+            "request": "launch",
+            "mainClass": "IceCream"
+        }
+    ]
+}

@@ -6,11 +6,17 @@ public class MyProgram
     
     public static void run()
     {
-        // Write some test function calls here!
+        printMessage("Hi", "Mack", 5);
     }
     
     public static void printMessage(String lineOne, String lineTwo, int numLines)
     {
-        // Start here!
+        for(int i = 0; i<numLines;i++){
+            if(i%2==0){
+                System.out.println(lineOne);
+            }else{
+                System.out.println(lineTwo);
+            }
+        }
     }
 }

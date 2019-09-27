@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyProgram",
+            "request": "launch",
+            "mainClass": "MyProgram"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Countdown",
+            "request": "launch",
+            "mainClass": "Countdown"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Add10",
+            "request": "launch",
+            "mainClass": "Add10"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Multiply",
+            "request": "launch",
+            "mainClass": "Multiply"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - printName",
+            "request": "launch",
+            "mainClass": "printName"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LineBreak",
+            "request": "launch",
+            "mainClass": "LineBreak"
+        }
+    ]
+}

@@ -11,6 +11,8 @@ public class Countdown
     
     private static void countdownFrom(int start, int stop)
     {
-        // Your code here
+        for(int i = start;i>=stop;i--){
+            System.out.println(i);
+        }
     }
 }

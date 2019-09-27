@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Odds",
+            "request": "launch",
+            "mainClass": "Odds",
+            "projectName": "Lesson 9 - For Loops_1f63cc8f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Repeat1000",
+            "request": "launch",
+            "mainClass": "Repeat1000",
+            "projectName": "Lesson 9 - For Loops_1f63cc8f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Lesson 9 - For Loops_1f63cc8f"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ForLoopSum",
             "request": "launch",
             "mainClass": "ForLoopSum"

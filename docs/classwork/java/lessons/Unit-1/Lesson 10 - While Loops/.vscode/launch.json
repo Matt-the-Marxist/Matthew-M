@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Taffy",
+            "request": "launch",
+            "mainClass": "Taffy",
+            "projectName": "Lesson 10 - While Loops_197870db"
+        }
+    ]
+}

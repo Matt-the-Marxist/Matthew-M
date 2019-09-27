@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Unit-1_28259176"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Repeat1000",
             "request": "launch",
             "mainClass": "Repeat1000",

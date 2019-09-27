@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RollerCoaster",
+            "request": "launch",
+            "mainClass": "RollerCoaster",
+            "projectName": "Lesson 7 - Logical Operators_e9e84b4d"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

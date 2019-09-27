@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GuessTheNumber",
+            "request": "launch",
+            "mainClass": "GuessTheNumber",
+            "projectName": "Lesson 12 - Loop and a half_24048054"
+        }
+    ]
+}

@@ -14,7 +14,6 @@ public class Multiply
     
     private static void multiply(int a, int b)
     {
-        // Your code here. 
-        // Print out the product of a and b.
+        System.out.println((a*b));
     }
 }

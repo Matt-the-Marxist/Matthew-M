@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AmusementPark",
+            "request": "launch",
+            "mainClass": "AmusementPark",
+            "projectName": "Lesson 14 - De Morgan's Laws_5999b3e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NightBiking",
+            "request": "launch",
+            "mainClass": "NightBiking",
+            "projectName": "Lesson 14 - De Morgan's Laws_43ac7995"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AmusementPark",
+            "request": "launch",
+            "mainClass": "AmusementPark",
+            "projectName": "Lesson 14 - De Morgan's Laws_43ac7995"
+        }
+    ]
+}

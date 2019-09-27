@@ -5,10 +5,12 @@ public class NegativeNumbers
     // user and prints if it is negative.
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int number = s.nextInt("Number: ");
+        System.out.println("Number: ");
+        int number = s.nextInt();
         if (number < 0)
         {
             System.out.println("Number is negative");
         }
+        s.close();
     }
 }

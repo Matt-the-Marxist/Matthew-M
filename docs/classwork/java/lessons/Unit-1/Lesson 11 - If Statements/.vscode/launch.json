@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindMinimum",
+            "request": "launch",
+            "mainClass": "FindMinimum",
+            "projectName": "Lesson 11 - If Statements_c5cf5783"
+        }
+    ]
+}

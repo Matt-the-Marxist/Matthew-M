@@ -13,6 +13,6 @@ public class Add10
     
     private static void add10(int num)
     {
-        // Fill this in
+        System.out.println(num+10);
     }
 }

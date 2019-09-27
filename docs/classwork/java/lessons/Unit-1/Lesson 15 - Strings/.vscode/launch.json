@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreeStrings",
+            "request": "launch",
+            "mainClass": "ThreeStrings",
+            "projectName": "Lesson 15 - Strings_7177e222"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ComparingStrings",
+            "request": "launch",
+            "mainClass": "ComparingStrings"
+        }
+    ]
+}

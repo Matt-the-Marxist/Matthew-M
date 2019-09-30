@@ -5,12 +5,12 @@
 public class DoubleNumber
 {
     public static void main(String[] args) {
-        
+        System.out.println(doubleNum(5));
     }
 
-    public int doubleNumber(int x)
+    public static int doubleNum(int x)
     {
-      return 2 * x;
+        return(2 * x);
     }
     
 }

@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - isItDivisible",
+            "request": "launch",
+            "mainClass": "isItDivisible",
+            "projectName": "Lesson 4 - Javadocs_76c325ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SumForm",
+            "request": "launch",
+            "mainClass": "SumForm",
+            "projectName": "Lesson 4 - Javadocs_76c325ba"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsinRange",
+            "request": "launch",
+            "mainClass": "IsinRange",
+            "projectName": "Lesson 4 - Javadocs_76c325ba"
+        }
+    ]
+}

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IsinRange",
+            "request": "launch",
+            "mainClass": "IsinRange",
+            "projectName": "Unit_2_28259785"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Average",
             "request": "launch",
             "mainClass": "Average"

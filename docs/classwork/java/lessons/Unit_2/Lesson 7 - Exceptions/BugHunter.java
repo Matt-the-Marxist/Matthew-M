@@ -9,7 +9,7 @@ public class BugHunter
         String test1 = "Debug";
         String test2 = "bugs bunny";
         String test3 = "boogie";
-        String test4 = 'baby buggie';
+        String test4 = "baby buggie";
         
         int index1 = findBug(test1);
         int index2 = findBug(test2);
@@ -17,19 +17,19 @@ public class BugHunter
         int index4 = findBug(test4);
         
         printBug(test1, index1);
-        printBug(test2, index2)
-        printBug(index3, test3);
+        printBug(test2, index2);
+        printBug(test3, index3);
         printBug(test4, index4);
     }
     
     // Returns the index of the String "bug" inside the String str
     // If str does not contain the String "bug", returns -1
-    public static String findBug(String str)
+    public static int findBug(String str)
     {
-        return str.indexOf("bug")
+        return str.indexOf("bug");
     }
     
-    public void printBug(String test, int index)
+    public static void printBug(String test, int index)
     {
         if(index != -1)
         {

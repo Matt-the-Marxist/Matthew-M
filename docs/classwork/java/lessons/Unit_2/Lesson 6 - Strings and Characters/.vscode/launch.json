@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - isInteger",
+            "request": "launch",
+            "mainClass": "isInteger",
+            "projectName": "Lesson 6 - Strings and Characters_8810398d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CharacterMethods",
+            "request": "launch",
+            "mainClass": "CharacterMethods",
+            "projectName": "Lesson 6 - Strings and Characters_8810398d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EscapeSequence",
+            "request": "launch",
+            "mainClass": "EscapeSequence",
+            "projectName": "Lesson 6 - Strings and Characters_8810398d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CharsAreNumbers",
+            "request": "launch",
+            "mainClass": "CharsAreNumbers",
+            "projectName": "Lesson 6 - Strings and Characters_8810398d"
+        }
+    ]
+}

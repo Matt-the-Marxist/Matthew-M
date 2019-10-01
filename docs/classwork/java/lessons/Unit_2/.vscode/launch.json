@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CharsAreNumbers",
+            "request": "launch",
+            "mainClass": "CharsAreNumbers",
+            "projectName": "Unit_2_fa45e5a6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FullName",
+            "request": "launch",
+            "mainClass": "FullName",
+            "projectName": "Unit_2_fa45e5a6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tripleString",
+            "request": "launch",
+            "mainClass": "tripleString",
+            "projectName": "Unit_2_fa45e5a6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - fahrenheitToCelsius",
             "request": "launch",
             "mainClass": "fahrenheitToCelsius",

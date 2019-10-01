@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - fahrenheitToCelsius",
+            "request": "launch",
+            "mainClass": "fahrenheitToCelsius",
+            "projectName": "Lesson 4 - Javadocs_76c325ba"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - isItDivisible",
             "request": "launch",
             "mainClass": "isItDivisible",

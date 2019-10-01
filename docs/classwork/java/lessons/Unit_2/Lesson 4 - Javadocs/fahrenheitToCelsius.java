@@ -1,5 +1,3 @@
-import sun.net.ftp.FtpClient;
-
 public class fahrenheitToCelsius{
 
 
@@ -8,18 +6,18 @@ public class fahrenheitToCelsius{
     }
 
     public static void run(){
-        fToC()
+        System.out.println(fToC(32.0));
+        System.out.println(fToC(212.0));
     }
     
     /**
      * converts fahrenheit to Celsius
      * 
-     * @param degrees temperature in f
-     * @return temperature in C
-     *  
+     * @param degrees temperature in f as double
+     * @return temperature in C as double
      */
-    public double fToC(double degrees)
+    public static double fToC(double degrees)
     {
-        // Implement this method to convert degrees Fahrenheit to Celsius
+       return(5*(degrees-32)/9); 
     }
 }

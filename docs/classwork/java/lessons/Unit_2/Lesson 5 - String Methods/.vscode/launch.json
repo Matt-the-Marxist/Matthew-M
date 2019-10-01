@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - repeatingStrings",
+            "request": "launch",
+            "mainClass": "repeatingStrings",
+            "projectName": "Lesson 5 - String Methods_515d613f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PorkyPig",
+            "request": "launch",
+            "mainClass": "PorkyPig",
+            "projectName": "Lesson 5 - String Methods_515d613f"
+        }
+    ]
+}

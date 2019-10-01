@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - fahrenheitToCelsius",
+            "request": "launch",
+            "mainClass": "fahrenheitToCelsius",
+            "projectName": "Unit_2_28259785"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IsinRange",
             "request": "launch",
             "mainClass": "IsinRange",

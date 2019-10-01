@@ -1,7 +1,9 @@
 public class tripleString{
 
     public static void main(String[] args){}
-    public static void run( ){}
+    public static void run( 
+        
+    ){}
 
     /**
      * Fill this in with a Javadoc style comment.

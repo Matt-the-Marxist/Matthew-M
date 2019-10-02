@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - bintch",
+            "request": "launch",
+            "mainClass": "bintch",
+            "projectName": "Lesson 8 - String Processing_ebb7f2e9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringSum",
+            "request": "launch",
+            "mainClass": "StringSum",
+            "projectName": "Lesson 8 - String Processing_ebb7f2e9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringConcatenation",
             "request": "launch",
             "mainClass": "StringConcatenation",

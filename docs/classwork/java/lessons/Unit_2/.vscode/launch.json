@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - bintch",
+            "request": "launch",
+            "mainClass": "bintch",
+            "projectName": "Unit_2_28259785"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringSum",
+            "request": "launch",
+            "mainClass": "StringSum",
+            "projectName": "Unit_2_28259785"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CharsAreNumbers",
             "request": "launch",
             "mainClass": "CharsAreNumbers",

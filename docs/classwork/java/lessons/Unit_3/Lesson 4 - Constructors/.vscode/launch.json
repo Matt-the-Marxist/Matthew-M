@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentTester2",
+            "request": "launch",
+            "mainClass": "StudentTester2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentTester",
+            "request": "launch",
+            "mainClass": "StudentTester"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RectangleTester",
+            "request": "launch",
+            "mainClass": "RectangleTester"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DogTester",
+            "request": "launch",
+            "mainClass": "DogTester"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FlowerTester",
+            "request": "launch",
+            "mainClass": "FlowerTester"
+        }
+    ]
+}

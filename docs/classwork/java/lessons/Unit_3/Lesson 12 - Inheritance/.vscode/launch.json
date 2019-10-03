@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConsoleProgram",
+            "request": "launch",
+            "mainClass": "ConsoleProgram",
+            "projectName": "Lesson 12 - Inheritance_5d247377"
+        }
+    ]
+}

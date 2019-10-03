@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DoubleNumber",
+            "request": "launch",
+            "mainClass": "DoubleNumber",
+            "projectName": "Lesson 5 - Instance Methods_3ca02704"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyProgram",
+            "request": "launch",
+            "mainClass": "MyProgram",
+            "projectName": "Lesson 5 - Instance Methods_3ca02704"
+        }
+    ]
+}

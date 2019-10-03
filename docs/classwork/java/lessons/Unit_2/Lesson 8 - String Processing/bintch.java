@@ -13,7 +13,8 @@ public class bintch{
      * returns an equation string such as "a+b=sum(a+b)"
      * 
      * @param one the first number 
-     * 
+     * @param two the second number
+     * @return equation string such as "a + b = (a+b)"
      */
     public static String sumString(int one, int two)
     {

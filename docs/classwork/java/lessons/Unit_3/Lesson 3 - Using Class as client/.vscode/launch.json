@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RectangleTester",
+            "request": "launch",
+            "mainClass": "RectangleTester",
+            "projectName": "Lesson 3 - Using Class as client_e6a0d736"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RandomizerTester",
+            "request": "launch",
+            "mainClass": "RandomizerTester",
+            "projectName": "Lesson 3 - Using Class as client_e6a0d736"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DistanceTester",
+            "request": "launch",
+            "mainClass": "DistanceTester",
+            "projectName": "Lesson 3 - Using Class as client_e6a0d736"
+        }
+    ]
+}

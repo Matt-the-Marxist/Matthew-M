@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ToUpperCase",
+            "request": "launch",
+            "mainClass": "ToUpperCase",
+            "projectName": "Lesson 8 - String Processing_80248468"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AllSameLetter",
+            "request": "launch",
+            "mainClass": "AllSameLetter",
+            "projectName": "Lesson 8 - String Processing_80248468"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DoubleVowel",
+            "request": "launch",
+            "mainClass": "DoubleVowel",
+            "projectName": "Lesson 8 - String Processing_80248468"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - bintch",
+            "request": "launch",
+            "mainClass": "bintch",
+            "projectName": "Lesson 8 - String Processing_80248468"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - bintch",
             "request": "launch",
             "mainClass": "bintch",

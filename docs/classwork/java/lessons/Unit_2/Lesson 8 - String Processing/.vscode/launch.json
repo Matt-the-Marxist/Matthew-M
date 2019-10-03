@@ -2,10 +2,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Palindromes",
+            "name": "CodeLens (Launch) - bintch",
             "request": "launch",
-            "mainClass": "Palindromes",
-            "projectName": "Lesson 8 - String Processing_80248468"
+            "mainClass": "bintch",
+            "projectName": "Lesson 8 - String Processing_ebb7f2e9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringSum",
+            "request": "launch",
+            "mainClass": "StringSum",
+            "projectName": "Lesson 8 - String Processing_ebb7f2e9"
         },
         {
             "type": "java",

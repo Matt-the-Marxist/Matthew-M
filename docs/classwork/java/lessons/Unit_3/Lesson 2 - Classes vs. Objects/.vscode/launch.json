@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Messages",
+            "request": "launch",
+            "mainClass": "Messages",
+            "projectName": "Lesson 2 - Classes vs. Objects_f8ed08a"
+        }
+    ]
+}

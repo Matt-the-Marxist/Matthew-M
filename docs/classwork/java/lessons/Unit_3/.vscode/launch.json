@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Messages",
+            "request": "launch",
+            "mainClass": "Messages",
+            "projectName": "Unit_3_fa45e5a7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentTester",
+            "request": "launch",
+            "mainClass": "StudentTester",
+            "projectName": "Unit_3_fa45e5a7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PointTester",
+            "request": "launch",
+            "mainClass": "PointTester",
+            "projectName": "Unit_3_fa45e5a7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RectangleTester",
+            "request": "launch",
+            "mainClass": "RectangleTester",
+            "projectName": "Unit_3_fa45e5a7"
+        }
+    ]
+}

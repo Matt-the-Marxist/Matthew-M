@@ -1,4 +1,4 @@
-public class StudentTester extends ConsoleProgram
+public class StudentTester
 {
     public void run()
     {

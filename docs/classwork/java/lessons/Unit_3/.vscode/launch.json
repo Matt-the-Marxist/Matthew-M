@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CoinFlips",
+            "request": "launch",
+            "mainClass": "CoinFlips",
+            "projectName": "Unit_3_fa45e5a7"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Messages",
             "request": "launch",
             "mainClass": "Messages",

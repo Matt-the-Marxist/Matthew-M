@@ -1,15 +1,17 @@
 public class Dog 
 {
     private String breed;
+    private String name;
     // Add an instance variable here for name.
     
-    public Dog(String theBreed)
+    public Dog(String theBreed, String theName)
     {
         breed = theBreed;
+        name = theName;
     }
     
     public String toString()
     {
-        return breed;
+        return name+" is a "+breed;
     }
 }

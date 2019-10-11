@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HowFarAway",
+            "request": "launch",
+            "mainClass": "HowFarAway",
+            "projectName": "Lesson 3 - Using Class as client_f08ce8f5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestStreak",
+            "request": "launch",
+            "mainClass": "LongestStreak",
+            "projectName": "Lesson 3 - Using Class as client_f08ce8f5"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CoinFlips",
             "request": "launch",
             "mainClass": "CoinFlips",

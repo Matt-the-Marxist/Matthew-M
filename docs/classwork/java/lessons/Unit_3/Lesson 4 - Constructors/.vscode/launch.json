@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FractionTester",
+            "request": "launch",
+            "mainClass": "FractionTester",
+            "projectName": "Lesson 4 - Constructors_1ce273b8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PizzaTester",
+            "request": "launch",
+            "mainClass": "PizzaTester",
+            "projectName": "Lesson 4 - Constructors_1ce273b8"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StudentTester2",
             "request": "launch",
             "mainClass": "StudentTester2"

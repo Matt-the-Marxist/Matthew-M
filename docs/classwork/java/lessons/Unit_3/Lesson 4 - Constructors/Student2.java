@@ -3,6 +3,7 @@ public class Student2
     private String firstName;
     private String lastName;
     private int gradeLevel;
+    private double GPA;
     // Add GPA instance variable here.
     
     /**
@@ -15,11 +16,12 @@ public class Student2
      * Check out StudentTester.java for an example of how to use
      * this constructor. 
      */
-    public Student2(String fName, String lName, int grade)
+    public Student2(String fName, String lName, int grade, double gpa)
     {
         firstName = fName;
         lastName = lName;
         gradeLevel = grade;
+        GPA = gpa;
     }
     
     /**
@@ -29,6 +31,6 @@ public class Student2
      */
     public String toString()
     {
-        return firstName + " " + lastName + " is in grade: " + gradeLevel;
+        return firstName + " " + lastName + " is in grade: " + gradeLevel+" and has GPA: "+GPA;
     }
 }

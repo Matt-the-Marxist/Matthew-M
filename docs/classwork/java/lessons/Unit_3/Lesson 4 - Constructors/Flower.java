@@ -13,4 +13,7 @@ public class Flower
         genus = theGenus;
         species = theSpecies;
     }
+    public String toString(){
+        return(color+" "+name+" ("+genus+" "+species+")");
+    }
 }

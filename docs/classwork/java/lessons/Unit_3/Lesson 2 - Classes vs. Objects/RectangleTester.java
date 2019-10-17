@@ -1,4 +1,4 @@
-public class RectangleTester extends ConsoleProgram
+public class RectangleTester
 {
     public void run()
     {

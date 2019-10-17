@@ -1,6 +1,10 @@
-public class StudentTester extends ConsoleProgram
+public class StudentTester
 {
-    public void run()
+    public static void main(String[] args) {
+        run();
+    }
+
+    public static void run()
     {
         Student alan = new Student("Alan", "Turing", 11);
         Student ada = new Student("Ada", "Lovelace", 12);

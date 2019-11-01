@@ -1,0 +1,86 @@
+body{
+    background-image: url("../media/fall-foliage-111315_1920.jpg");
+    margin:0px;
+    padding: 0px;
+    background-size: cover;
+}
+
+.content{
+    width:80%;
+    max-width: 50em;
+    min-width: 600px;
+    background-color: white;;
+    border-radius: 2.5em;
+    margin: auto;
+    margin-top: 2.5em;
+    min-height: 10em;
+}
+
+.header{
+    height:2em;
+    width:100%;
+    box-shadow:0px 10px 10px -10px lightgray;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: .05em .05em #ff8800;
+    font-size: 3em;
+    text-align: center;
+}
+
+.menu{
+    padding: 1em;
+    width:95%;
+    margin:auto;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttonHolder{
+    padding-top: 1em;
+    justify-content: center;
+    display: flex;
+}
+
+
+.menu button{
+    height: 2.5em;
+    width: 6em;
+    border-radius: 50%;
+    background-color: #C01800;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    text-shadow: .05em .05em #ff8800;
+    border-style: solid;
+}
+
+.itemName{
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: .05em .05em #ff8800;
+    font-size: 1.5em;
+}
+
+.itemDescription{
+    padding-left: 1.5em;
+}
+
+.itemImg{
+    height:3em;
+    width: 3em;
+    border-radius: 50%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .content{
+        width: 100%;
+        min-width: initial;
+    }
+    .columns{
+        grid-template-columns: 1fr;
+    }
+    
+}

@@ -1,0 +1,10 @@
+{
+    "Pumpkin Pie":{
+    	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In est ante in nibh mauris cursus mattis molestie a. Eget dolor morbi non arcu. Non diam phasellus vestibulum lorem.",
+        "image": "pumpkinPie.png"
+    },
+    "Fall Cookies":{
+        "description": "Neque egestas congue quisque egestas diam in arcu. Nullam ac tortor vitae purus. Vel eros donec ac odio tempor orci. Nibh sit amet commodo nulla facilisi. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.",
+        "image":"cookies.jpg"
+    }
+}

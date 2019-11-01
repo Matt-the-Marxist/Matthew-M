@@ -1,0 +1,58 @@
+prevalent:
+	Adjective:
+		1: most frequent or common
+discord:
+	Noun:
+		1: lack of agreement or harmony
+		2: disagreement among those expected to cooperate
+		3: a harsh mixture of sounds
+		4: strife resulting from a lack of agreement
+	Verb:
+		1: be different from one another
+impregnable:
+	Adjective:
+		1: immune to attack; incapable of being tampered with
+		2: capable of conceiving
+		3: incapable of being overcome, challenged or refuted
+melancholy:
+	Noun:
+		1: a feeling of thoughtful sadness
+		2: a constitutional tendency to be gloomy and depressed
+		3: a humor that was once believed to be secreted by the kidneys or spleen and to cause sadness and melancholy
+	Adjective:
+		1: characterized by or causing or expressing sadness
+		2: grave or even gloomy in character
+surmise:
+	Noun:
+		1: a message expressing an opinion based on incomplete evidence
+	Verb:
+		1: infer from incomplete evidence
+		2: imagine to be the case or true or probable
+obliterate:
+	Verb:
+		1: mark for deletion, rub off, or erase
+		2: make undecipherable or imperceptible by obscuring or concealing
+		3: remove completely from recognition or memory
+		4: do away with completely, without leaving a trace
+	Adjective:
+		1: reduced to nothingness
+speculate:
+	Verb:
+		1: to believe especially on uncertain or tentative grounds
+		2: talk over conjecturally, or review in an idle or casual way and with an element of doubt or without sufficient reason to reach a conclusion
+		3: reflect deeply on a subject
+		4: invest at a risk
+parsimony:
+	Noun:
+		1: extreme care in spending money; reluctance to spend money unnecessarily
+		2: extreme stinginess
+perpetual:
+	Adjective:
+		1: continuing forever or indefinitely
+		2: uninterrupted in time and indefinitely long continuing
+integrate:
+	Verb:
+		1: make into a whole or make part of a whole
+		2: open (a place
+		3: become one; become integrated
+		4: calculate the integral of; calculate by integration
